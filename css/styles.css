@@ -1,0 +1,237 @@
+#title
+{
+  background-color:#ff4c68;
+  text-align: left;
+
+}
+
+body
+{
+  font-family: Montserrat;
+  text-align: center;
+}
+
+h1,h2,h3
+{
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+h2
+{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+a
+{
+  color: black;
+}
+
+a:hover
+{
+  color: #ef8172;
+}
+
+/* Headings */
+.big-heading
+{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+
+.container-fluid
+{
+  padding: 3% 15% 7%;
+}
+
+
+
+
+
+/* navigationbar */
+.navbar-brand
+{
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar
+{
+  padding-bottom: 4.5rem;
+}
+
+.nav-item
+{
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.nav-link
+{
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+/* Download button */
+.Download_btn
+{
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+
+.dogimagtitle
+{
+  width: 20%;
+  transform: rotate(25deg);
+  position:absolute;
+  margin-left:10%;
+}
+
+@media (max-width:1028px) {
+
+  #title
+  {
+    text-align: center;
+  }
+
+  .dogimagtitle
+  {
+    position: static;
+    width: 60%;
+    transform: rotate(0deg);
+  }
+
+}
+
+/* Features */
+.feat-img
+{
+  font-size: 3rem;
+  color: #ef8172;
+
+}
+
+.feat-img:hover{
+  color: #ff4c68;
+}
+
+.feat_head
+{
+ font-weight:700;
+ font-size: 1.5rem;
+ padding: 5% 0;
+}
+
+.feat-p
+{
+  color: #8f8f8f;
+}
+
+.feat-box
+{
+  margin: 3rem auto;
+}
+
+#features
+{
+  padding: 5rem;
+  background-color: #fff;
+  position:relative;
+  z-index: 1;
+}
+
+/* testimonials */
+
+#testimonials
+{
+  background-color: #ef8172;
+  color: #fff;
+}
+
+
+.test_imag
+{
+  width: 10%;
+  border-radius: 100%;
+  margin: 2rem;
+}
+
+.carousel-item
+{
+    padding: 7% 15%;
+}
+
+#press
+{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo
+{
+  width: 15%;
+  margin:1.25rem 1.25rem 3.125rem;
+}
+/* Pricing */
+
+#pricing
+{
+  padding: 6.35rem;
+}
+
+.pricing-column
+{
+  padding: 3% 2%;
+}
+
+.btn3
+{
+  margin-top: 3%;
+}
+
+.btn23
+{
+  padding-top: 3.25%;
+  padding-bottom: 3.25%;
+}
+
+/* call to action */
+#cta
+{
+  background-color: #ff4c68;
+}
+
+.cta-head{
+  font-family: Montserrat;
+  font-weight: bold;
+  color: #fff;
+  font-size: 3rem;
+  line-height: 1.5;
+  width: 50%;
+  padding-top: 3.125rem;
+  margin: 0 auto;
+}
+
+/* footer section */
+#footer
+{
+  padding: 7% 15%;
+
+}
+
+.foot-p
+{
+  color: #8f8f8f;
+}
+
+.foot-icon
+{
+  margin: 1rem;
+}
